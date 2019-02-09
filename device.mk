@@ -41,6 +41,11 @@ $(call inherit-product, device/huawei/kirin970-common/kirin970.mk)
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
+# GPS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/system/etc/gps.conf:system/etc/gps.conf \
+    $(LOCAL_PATH)/rootdir/system/etc/gps_debug.conf:system/etc/gps_debug.conf \
+
 # NFC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/libnfc_brcm_pra_L31.conf:system/etc/libnfc-brcm.conf \
