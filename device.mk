@@ -63,3 +63,7 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
+
+# Vendor Security Patches
+PRODUCT_PROPERTY_OVERRIDES += \
+     ro.lineage.build.vendor_security_patch=2019-02-05

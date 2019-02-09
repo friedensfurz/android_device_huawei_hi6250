@@ -28,3 +28,7 @@
 
 DEVICE_PATH := device/huawei/hi6250
 
+# Vendor Security Patches
+VENDOR_SECURITY_PATCH := 2019-02-05
+
+
