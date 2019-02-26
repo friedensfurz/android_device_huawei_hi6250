@@ -35,7 +35,7 @@ PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 $(call inherit-product-if-exists, vendor/huawei/hi6250/hi6250-vendor.mk)
 
 # Device
-$(call inherit-product, device/huawei/kirin970-common/kirin970.mk)
+$(call inherit-product, device/huawei/hi6250-common/kirin655.mk)
 
 # Display
 TARGET_SCREEN_HEIGHT := 1920
