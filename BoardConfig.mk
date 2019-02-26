@@ -23,8 +23,8 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-# inherit from common kirin970-common
--include device/huawei/kirin970-common/BoardConfigCommon.mk
+# inherit from common hi6250-common
+-include device/huawei/hi6250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/huawei/hi6250
 
